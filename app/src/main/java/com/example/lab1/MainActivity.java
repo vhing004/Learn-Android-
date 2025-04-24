@@ -25,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+//        tạo biến vinh để lấy id từ activity_main.xml
         TextView vinh = findViewById(R.id.vindev);
 
+//        set cho nó 1 sự kiện khi ấm vào sẽ hiện lên message là hello vinh
         vinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
